@@ -1,0 +1,17 @@
+
+POST    /api/v1/clients
+
+GET     /api/v1/clients/{telephone}
+
+GET /api/v1/clients?page=0&size=2
+
+POST    /api/v1/clients/{clientId}/dettes
+GET /api/v1/dettes?telephone=770000001&page=0&size=3
+
+GET     /api/v1/dettes/{id}
+
+POST    /api/v1/dettes/{detteId}/paiements
+
+GET /api/v1/paiements?telephone=770000001&detteId=1&page=0&size=3
+
+GET     /api/v1/paiements/dette/{detteId}
